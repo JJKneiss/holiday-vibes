@@ -1,0 +1,37 @@
+*{
+    color: orange;
+    background-color: #363333;
+
+}
+header, footer{
+    text-align: center;
+    height: 120px;
+}
+header ul{
+    list-style: none;
+    padding: 0;
+}
+header li{
+    display: inline;
+    margin: 20px;
+}
+audio[controls]{
+    border: 3px solid orange;
+    border-radius: 100px;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 36px;
+}
+a[data-img-attribution]{
+    color: orangered;
+    font-style: italic;
+    opacity: 70%;
+}
+a[data-img-attribution]:hover{
+    opacity: 90%;
+}
