@@ -1,4 +1,4 @@
-import MusicPlayer from './src/musicPlayer.js';
-import countdown from './src/countdown.js';
+import MusicPlayer from './src/controllers/musicPlayer.js';
+import countdown from './src/controllers/countdown.js';
 
 new MusicPlayer();

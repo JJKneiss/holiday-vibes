@@ -1,4 +1,5 @@
-import { music, image } from './data.js';
+import { image } from '../data/image.js';
+import { music } from '../data/music.js';
 
 export default class MusicPlayer {
     constructor() {
