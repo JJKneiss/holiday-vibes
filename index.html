@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spook Vibes</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/countdown.css">
     <script type="module" src="index.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Site Name</h1>
+        <h1>Vibe</h1>
         <nav>
             <ul>
                 <li><a href="/index.html">home</a></li>
@@ -20,19 +21,40 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <article class="music-player">
-            <h2><a data-music-title href="">Music Title</a></h2>
-            <h3><a data-music-author href="">Music Author</a></h3>
-            <img src="" alt="" height="250">
-            <a data-img-attribution href="">Image Attribution</a>
-            <button class="previous">Previous Song</button>
-            <audio controls autoplay>
-                <source src="" type="">
-                Your browser does not support the audio element.
-            </audio>
-            <button class="next">Next Song</button>
-        </article>
+    <section class="timer">
+        <div>
+            <h2>Countdown to Halloween</h2>
+            <div class="countdown">
+                <div class="container-day">
+                    <h3 class="day">Time</h3>
+                    <h3>Days</h3>
+                </div>
+                <div class="container-hour">
+                    <h3 class="hour">Time</h3>
+                    <h3>Hours</h3>
+                </div>
+                <div class="container-minute">
+                    <h3 class="minute">Time</h3>
+                    <h3>Minutes</h3>
+                </div>
+                <div class="container-second">
+                    <h3 class="second">Time</h3>
+                    <h3>Seconds</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="music-player">
+        <h2><a data-music-title href="">Music Title</a></h2>
+        <h3><a data-music-author href="">Music Author</a></h3>
+        <img src="" alt="" height="250">
+        <a data-img-attribution href="">Image Attribution</a>
+        <button class="previous">Previous Song</button>
+        <audio controls autoplay>
+            <source src="" type="">
+            Your browser does not support the audio element.
+        </audio>
+        <button class="next">Next Song</button>
     </section>
 </body>
 

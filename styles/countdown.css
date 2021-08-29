@@ -1,0 +1,32 @@
+.timer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.timer h2{
+    font-size: 48px;
+}
+.timer h3{
+    margin: 5px;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+}
+.day,.hour,.minute,.second{
+    font-size: 35px;
+    margin: 0;
+}
+.container-day{
+
+}
+.container-hour{
+
+}
+.container-minute{
+
+}
+.container-second{
+
+}
